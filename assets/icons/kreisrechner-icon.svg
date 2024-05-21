@@ -1,0 +1,14 @@
+<svg id="favicon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <!-- Designed by Fabix for: Kreisberechner, Kreisberechner kompakt. -->
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ff0;
+      }
+    </style>
+  </defs>
+  <g id="Hintergrund">
+    <rect class="cls-1" width="16" height="16" rx="3.18334"/>
+  </g>
+  <path d="M11.98438,12.21973H9.92188L7.67773,8.61035l-.76757.55078v3.0586H5.09375V3.65332H6.91016V7.57324q.18163-.252.35742-.5039T7.625,6.56543L9.94531,3.65332h2.01563l-2.98828,3.791Z"/>
+</svg>

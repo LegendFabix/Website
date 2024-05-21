@@ -1,0 +1,428 @@
+@import url("colorset.css");
+
+/* local font support */
+
+/* epilogue-100 - latin_latin-ext */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Epilogue";
+  font-style: normal;
+  font-weight: 100;
+  src: url("./fonts/epilogue-v17-latin_latin-ext-100.woff2") format("woff2"), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */ url("./fonts/epilogue-v17-latin_latin-ext-100.ttf") format("truetype"); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+}
+/* epilogue-100italic - latin_latin-ext */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Epilogue";
+  font-style: italic;
+  font-weight: 100;
+  src: url("./fonts/epilogue-v17-latin_latin-ext-100italic.woff2") format("woff2"), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */ url("./fonts/epilogue-v17-latin_latin-ext-100italic.ttf") format("truetype"); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+}
+/* epilogue-200 - latin_latin-ext */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Epilogue";
+  font-style: normal;
+  font-weight: 200;
+  src: url("./fonts/epilogue-v17-latin_latin-ext-200.woff2") format("woff2"), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */ url("./fonts/epilogue-v17-latin_latin-ext-200.ttf") format("truetype"); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+}
+/* epilogue-200italic - latin_latin-ext */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Epilogue";
+  font-style: italic;
+  font-weight: 200;
+  src: url("./fonts/epilogue-v17-latin_latin-ext-200italic.woff2") format("woff2"), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */ url("./fonts/epilogue-v17-latin_latin-ext-200italic.ttf") format("truetype"); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+}
+/* epilogue-300 - latin_latin-ext */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Epilogue";
+  font-style: normal;
+  font-weight: 300;
+  src: url("./fonts/epilogue-v17-latin_latin-ext-300.woff2") format("woff2"), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */ url("./fonts/epilogue-v17-latin_latin-ext-300.ttf") format("truetype"); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+}
+/* epilogue-300italic - latin_latin-ext */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Epilogue";
+  font-style: italic;
+  font-weight: 300;
+  src: url("./fonts/epilogue-v17-latin_latin-ext-300italic.woff2") format("woff2"), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */ url("./fonts/epilogue-v17-latin_latin-ext-300italic.ttf") format("truetype"); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+}
+/* epilogue-regular - latin_latin-ext */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Epilogue";
+  font-style: normal;
+  font-weight: 400;
+  src: url("./fonts/epilogue-v17-latin_latin-ext-regular.woff2") format("woff2"), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */ url("./fonts/epilogue-v17-latin_latin-ext-regular.ttf") format("truetype"); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+}
+/* epilogue-italic - latin_latin-ext */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Epilogue";
+  font-style: italic;
+  font-weight: 400;
+  src: url("./fonts/epilogue-v17-latin_latin-ext-italic.woff2") format("woff2"), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */ url("./fonts/epilogue-v17-latin_latin-ext-italic.ttf") format("truetype"); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+}
+/* epilogue-500 - latin_latin-ext */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Epilogue";
+  font-style: normal;
+  font-weight: 500;
+  src: url("./fonts/epilogue-v17-latin_latin-ext-500.woff2") format("woff2"), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */ url("./fonts/epilogue-v17-latin_latin-ext-500.ttf") format("truetype"); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+}
+/* epilogue-500italic - latin_latin-ext */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Epilogue";
+  font-style: italic;
+  font-weight: 500;
+  src: url("./fonts/epilogue-v17-latin_latin-ext-500italic.woff2") format("woff2"), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */ url("./fonts/epilogue-v17-latin_latin-ext-500italic.ttf") format("truetype"); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+}
+/* epilogue-600 - latin_latin-ext */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Epilogue";
+  font-style: normal;
+  font-weight: 600;
+  src: url("./fonts/epilogue-v17-latin_latin-ext-600.woff2") format("woff2"), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */ url("./fonts/epilogue-v17-latin_latin-ext-600.ttf") format("truetype"); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+}
+/* epilogue-600italic - latin_latin-ext */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Epilogue";
+  font-style: italic;
+  font-weight: 600;
+  src: url("./fonts/epilogue-v17-latin_latin-ext-600italic.woff2") format("woff2"), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */ url("./fonts/epilogue-v17-latin_latin-ext-600italic.ttf") format("truetype"); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+}
+/* epilogue-700 - latin_latin-ext */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Epilogue";
+  font-style: normal;
+  font-weight: 700;
+  src: url("./fonts/epilogue-v17-latin_latin-ext-700.woff2") format("woff2"), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */ url("./fonts/epilogue-v17-latin_latin-ext-700.ttf") format("truetype"); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+}
+/* epilogue-700italic - latin_latin-ext */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Epilogue";
+  font-style: italic;
+  font-weight: 700;
+  src: url("./fonts/epilogue-v17-latin_latin-ext-700italic.woff2") format("woff2"), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */ url("./fonts/epilogue-v17-latin_latin-ext-700italic.ttf") format("truetype"); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+}
+/* epilogue-800 - latin_latin-ext */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Epilogue";
+  font-style: normal;
+  font-weight: 800;
+  src: url("./fonts/epilogue-v17-latin_latin-ext-800.woff2") format("woff2"), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */ url("./fonts/epilogue-v17-latin_latin-ext-800.ttf") format("truetype"); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+}
+/* epilogue-800italic - latin_latin-ext */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Epilogue";
+  font-style: italic;
+  font-weight: 800;
+  src: url("./fonts/epilogue-v17-latin_latin-ext-800italic.woff2") format("woff2"), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */ url("./fonts/epilogue-v17-latin_latin-ext-800italic.ttf") format("truetype"); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+}
+/* epilogue-900 - latin_latin-ext */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Epilogue";
+  font-style: normal;
+  font-weight: 900;
+  src: url("./fonts/epilogue-v17-latin_latin-ext-900.woff2") format("woff2"), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */ url("./fonts/epilogue-v17-latin_latin-ext-900.ttf") format("truetype"); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+}
+/* epilogue-900italic - latin_latin-ext */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Epilogue";
+  font-style: italic;
+  font-weight: 900;
+  src: url("./fonts/epilogue-v17-latin_latin-ext-900italic.woff2") format("woff2"), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */ url("./fonts/epilogue-v17-latin_latin-ext-900italic.ttf") format("truetype"); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+}
+
+/* stylesheet */
+
+* {
+  font-family: "Epilogue", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  color: var(--white);
+  text-decoration: none;
+  margin: 0;
+}
+
+body {
+  background-color: var(--light-black);
+}
+
+.pfp {
+  border-radius: 80px;
+  margin-left: 1.5em;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.navbar {
+  background-color: rgb(74, 74, 163);
+  padding-left: 1em;
+  padding-right: 1em;
+  box-shadow: 0 0 2rem var(--shadow);
+}
+
+.navdiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+  padding: 1.2em;
+}
+
+li a {
+  font-size: 25px;
+  font-weight: bold;
+  transition: all 0.3s ease-in-out;
+}
+
+li a:hover {
+  color: var(--gray);
+}
+
+.all {
+  padding-left: 5em;
+  padding-right: 8em;
+}
+
+.heading {
+  margin-top: 7em;
+  font-size: 2em;
+}
+
+.link-social {
+  color: aqua;
+  transition: all ease-in-out 0.3s;
+}
+
+.link-social:hover {
+  color: var(--light-blue);
+}
+
+.socials-head {
+  font-size: 1em;
+  margin-top: 16em;
+}
+
+.contact-2 {
+  margin-top: 1.5em;
+}
+
+.imprint {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5em;
+}
+
+h2 {
+  margin: 8px;
+}
+
+h3 {
+  margin-top: 3em;
+}
+
+.projects-head {
+  margin-top: 15em;
+  padding-top: 1em;
+}
+
+.projects {
+  margin-top: 3em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 5em;
+}
+
+.projects-cards {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  width: 15em;
+  height: 10rem;
+  background-color: var(--darker-gray2);
+  padding-top: 3em;
+  flex-direction: column;
+  border-radius: 0.5em;
+  text-decoration: none;
+  flex-basis: 30%;
+  transition: all 0.3s ease-in-out;
+}
+
+.img-projects {
+  width: 3em;
+  height: 3em;
+  padding-bottom: 1em;
+  position: absolute;
+  left: 1em;
+  bottom: 8em;
+}
+
+.projects-cards:hover {
+  background-color: var(--darker-gray1);
+}
+
+.h2 {
+  position: absolute;
+  bottom: 4em;
+}
+
+.dev-status {
+  position: absolute;
+  top: 6.5em;
+  left: 16px;
+}
+
+@media (max-width: 1100px) {
+  .projects.cards {
+    margin: 0;
+  }
+
+  .projects-head {
+    text-align: center;
+    margin-top: 2em;
+  }
+
+  .heading {
+    margin-top: 5em;
+    font-size: 24px;
+    text-align: left;
+  }
+
+  .heading-p {
+    margin-top: 50px;
+  }
+
+  .projects {
+    margin: 0;
+    display: block;
+  }
+
+  .projects-cards {
+    margin: auto;
+    margin-bottom: 2em;
+  }
+}
+
+@media (max-width: 450px) {
+  .heading {
+    margin-top: 5em;
+    font-size: 20px;
+    text-align: left;
+  }
+
+  .socials {
+    margin: auto;
+    margin-bottom: 2em;
+    padding: 30px;
+  }
+
+  .cards {
+    margin: 0;
+    display: block;
+  }
+
+  .socials-head {
+    text-align: center;
+  }
+}
+
+@media (max-width: 360px) {
+  .navbar {
+    font-size: 5px;
+  }
+  .navdiv {
+    padding: 20px;
+  }
+  .logo {
+    padding-right: 20px;
+  }
+}
+
+/* Stylesheet zu socials */
+
+.headline {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 2em;
+}
+
+.socials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 15em;
+  height: 10rem;
+  padding-top: 3em;
+  background-color: var(--darker-gray2);
+  flex-direction: column;
+  border-radius: 1em;
+  text-decoration: none;
+  flex-basis: 40%;
+  transition: all 0.3s ease-in-out;
+}
+
+.img {
+  width: 4em;
+  height: 4em;
+  padding-bottom: 1em;
+}
+
+.img-yt {
+  width: 5em;
+  height: 5em;
+  padding-bottom: 1em;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 3em;
+  gap: 2em;
+}
+
+.socials:hover {
+  background-color: var(--darker-gray1);
+}
